@@ -22,7 +22,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     width:311px ;
-    height: 627px;
+    height: 628px;
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
@@ -31,8 +31,8 @@ main{
     position: relative;
     top:80px;
     left:22px;
-    width: 269px;
-    height: 471px;
+    width: 268px;
+    height: 472px;
 }
 
 #redes-sociais{
@@ -51,5 +51,5 @@ main{
     border: 2px solid rgba(255, 255, 255, 0.623);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
-    transform: transform .3s, border 1s;
+    transition: transform .3s, border 1s;
 }
